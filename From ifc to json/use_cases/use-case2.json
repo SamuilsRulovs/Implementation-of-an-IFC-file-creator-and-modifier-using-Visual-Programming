@@ -1,0 +1,3031 @@
+{
+   "general info": {
+      "type": "Ryven project file",
+      "ryven version": "v3.1"
+   },
+   "required packages": [
+      {
+         "name": "Prototype Nodes",
+         "dir": "C:/dev/Bachelorarbeit/Ryven/Prototype Nodes"
+      }
+   ],
+   "scripts": [
+      {
+         "title": "hello world",
+         "variables": {},
+         "flow": {
+            "algorithm mode": "data",
+            "nodes": [
+               {
+                  "identifier": "Prototype Nodes.IfcProject",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCPROJECT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 8,
+                        "val": "gASVBgAAAAAAAACMAiMxlC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwCIzGUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiMxlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "GlobalId",
+                        "GID": 9,
+                        "val": "gASVHAAAAAAAAACMGCcweFNjUmU0ZHJFQ1E0RE1TcVVqZDZkJ5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVUgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwYJzB4U2NSZTRkckVDUTRETVNxVWpkNmQnlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVJgAAAAAAAAB9lIwEdGV4dJSMGCcweFNjUmU0ZHJFQ1E0RE1TcVVqZDZkJ5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "OwnerHistory",
+                        "GID": 10,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiMylHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "Name",
+                        "GID": 11,
+                        "val": "gASVHQAAAAAAAACMGSdwcm94eSB3aXRoIHRlc3NlbGxhdGlvbieULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVUwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwZJ3Byb3h5IHdpdGggdGVzc2VsbGF0aW9uJ5SMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVJwAAAAAAAAB9lIwEdGV4dJSMGSdwcm94eSB3aXRoIHRlc3NlbGxhdGlvbieUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Description",
+                        "GID": 12,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ObjectType",
+                        "GID": 13,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "LongName",
+                        "GID": 14,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Phase",
+                        "GID": 15,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "RepresentationContexts",
+                        "GID": 16,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEgAAAAAAAAB9lIwEdGV4dJSMBCgjMymUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "UnitsInContext",
+                        "GID": 17,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM0lHMu"
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 18
+                     }
+                  ],
+                  "GID": 7,
+                  "pos x": 5400.0,
+                  "pos y": 200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcOwnerHistory",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCOWNERHISTORY"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 20,
+                        "val": "gASVBgAAAAAAAACMAiMylC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwCIzKUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiMylHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "OwningUser",
+                        "GID": 21,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM2lHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "OwningApplication",
+                        "GID": 22,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM3lHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "State",
+                        "GID": 23,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ChangeAction",
+                        "GID": 24,
+                        "val": "gASVCwAAAAAAAACMBy5BRERFRC6ULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwHLkFEREVELpSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVFQAAAAAAAAB9lIwEdGV4dJSMBy5BRERFRC6Ucy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "LastModifiedDate",
+                        "GID": 25,
+                        "val": "gASVDgAAAAAAAACMCjEzMjA2ODg4MDCULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVRAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwKMTMyMDY4ODgwMJSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVGAAAAAAAAAB9lIwEdGV4dJSMCjEzMjA2ODg4MDCUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "LastModifyingUser",
+                        "GID": 26,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "LastModifyingApplication",
+                        "GID": 27,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "CreationDate",
+                        "GID": 28,
+                        "val": "gASVDgAAAAAAAACMCjEzMjA2ODg4MDCULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVRAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwKMTMyMDY4ODgwMJSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVGAAAAAAAAAB9lIwEdGV4dJSMCjEzMjA2ODg4MDCUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 29
+                     }
+                  ],
+                  "GID": 19,
+                  "pos x": 4500.0,
+                  "pos y": 200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcGeometricRepresentationContext",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCGEOMETRICREPRESENTATIONCONTEXT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 31,
+                        "val": "gASVBgAAAAAAAACMAiMzlC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwCIzOUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiMzlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "ContextIdentifier",
+                        "GID": 32,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ContextType",
+                        "GID": 33,
+                        "val": "gASVCwAAAAAAAACMBydNb2RlbCeULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwHJ01vZGVsJ5SMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVFQAAAAAAAAB9lIwEdGV4dJSMBydNb2RlbCeUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "CoordinateSpaceDimension",
+                        "GID": 34,
+                        "val": "gASVBQAAAAAAAACMATOULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBM5SMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATOUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Precision",
+                        "GID": 35,
+                        "val": "gASVCwAAAAAAAACMBzEuMEUtMDWULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwHMS4wRS0wNZSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVFQAAAAAAAAB9lIwEdGV4dJSMBzEuMEUtMDWUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "WorldCoordinateSystem",
+                        "GID": 36,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM4lHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "TrueNorth",
+                        "GID": 37,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 38
+                     }
+                  ],
+                  "GID": 30,
+                  "pos x": 3600.0,
+                  "pos y": 200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcUnitAssignment",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCUNITASSIGNMENT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 40,
+                        "val": "gASVBgAAAAAAAACMAiM0lC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwCIzSUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM0lHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "Units",
+                        "GID": 41,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVFwAAAAAAAAB9lIwEdGV4dJSMCSgjMTAsIzExKZRzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 42
+                     }
+                  ],
+                  "GID": 39,
+                  "pos x": 2700.0,
+                  "pos y": 200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcRelAggregates",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCRELAGGREGATES"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 44,
+                        "val": "gASVBgAAAAAAAACMAiM1lC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwCIzWUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM1lHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "GlobalId",
+                        "GID": 45,
+                        "val": "gASVHAAAAAAAAACMGCcyWUJxYVZfOEwxNWVXSjlEQTFzR21UJ5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVUgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwYJzJZQnFhVl84TDE1ZVdKOURBMXNHbVQnlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVJgAAAAAAAAB9lIwEdGV4dJSMGCcyWUJxYVZfOEwxNWVXSjlEQTFzR21UJ5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "OwnerHistory",
+                        "GID": 46,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Name",
+                        "GID": 47,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Description",
+                        "GID": 48,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "RelatingObject",
+                        "GID": 49,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiMxlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "RelatedObjects",
+                        "GID": 50,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEwAAAAAAAAB9lIwEdGV4dJSMBSgjMjMplHMu"
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 51
+                     }
+                  ],
+                  "GID": 43,
+                  "pos x": 1800.0,
+                  "pos y": 200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcPersonAndOrganization",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCPERSONANDORGANIZATION"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 53,
+                        "val": "gASVBgAAAAAAAACMAiM2lC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwCIzaUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM2lHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "ThePerson",
+                        "GID": 54,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxMpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "TheOrganization",
+                        "GID": 55,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxM5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Roles",
+                        "GID": 56,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 57
+                     }
+                  ],
+                  "GID": 52,
+                  "pos x": 5400.0,
+                  "pos y": 600.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcApplication",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCAPPLICATION"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 59,
+                        "val": "gASVBgAAAAAAAACMAiM3lC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwCIzeUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM3lHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "ApplicationDeveloper",
+                        "GID": 60,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxM5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Version",
+                        "GID": 61,
+                        "val": "gASVCQAAAAAAAACMBScxLjAnlC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwFJzEuMCeUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEwAAAAAAAAB9lIwEdGV4dJSMBScxLjAnlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "ApplicationFullName",
+                        "GID": 62,
+                        "val": "gASVFQAAAAAAAACMESdJRkMgdGV4dCBlZGl0b3InlC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVSwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwRJ0lGQyB0ZXh0IGVkaXRvcieUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVHwAAAAAAAAB9lIwEdGV4dJSMESdJRkMgdGV4dCBlZGl0b3InlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "ApplicationIdentifier",
+                        "GID": 63,
+                        "val": "gASVCwAAAAAAAACMBydpZmNURSeULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwHJ2lmY1RFJ5SMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVFQAAAAAAAAB9lIwEdGV4dJSMBydpZmNURSeUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 64
+                     }
+                  ],
+                  "GID": 58,
+                  "pos x": 4500.0,
+                  "pos y": 600.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcAxis2Placement3D",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCAXIS2PLACEMENT3D"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 66,
+                        "val": "gASVBgAAAAAAAACMAiM4lC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwCIziUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM4lHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "Location",
+                        "GID": 67,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxNJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Axis",
+                        "GID": 68,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "RefDirection",
+                        "GID": 69,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 70
+                     }
+                  ],
+                  "GID": 65,
+                  "pos x": 3600.0,
+                  "pos y": 600.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcGeometricRepresentationSubContext",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCGEOMETRICREPRESENTATIONSUBCONTEXT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 72,
+                        "val": "gASVBgAAAAAAAACMAiM5lC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwCIzmUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM5lHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "ContextIdentifier",
+                        "GID": 73,
+                        "val": "gASVCgAAAAAAAACMBidCb2R5J5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwGJ0JvZHknlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVFAAAAAAAAAB9lIwEdGV4dJSMBidCb2R5J5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ContextType",
+                        "GID": 74,
+                        "val": "gASVCwAAAAAAAACMBydNb2RlbCeULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwHJ01vZGVsJ5SMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVFQAAAAAAAAB9lIwEdGV4dJSMBydNb2RlbCeUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "CoordinateSpaceDimension",
+                        "GID": 75,
+                        "val": "gASVBQAAAAAAAACMATCULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBMJSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATCUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Precision",
+                        "GID": 76,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "WorldCoordinateSystem",
+                        "GID": 77,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "TrueNorth",
+                        "GID": 78,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ParentContext",
+                        "GID": 79,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiMzlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "TargetScale",
+                        "GID": 80,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "TargetView",
+                        "GID": 81,
+                        "val": "gASVEAAAAAAAAACMDC5NT0RFTF9WSUVXLpQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVRgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwMLk1PREVMX1ZJRVculIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVGgAAAAAAAAB9lIwEdGV4dJSMDC5NT0RFTF9WSUVXLpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "UserDefinedTargetView",
+                        "GID": 82,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 83
+                     }
+                  ],
+                  "GID": 71,
+                  "pos x": 2700.0,
+                  "pos y": 600.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcSIUnit",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCSIUNIT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 85,
+                        "val": "gASVBwAAAAAAAACMAyMxMJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzEwlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxMJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Dimensions",
+                        "GID": 86,
+                        "val": "gASVBQAAAAAAAACMASqULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBKpSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASqUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "UnitType",
+                        "GID": 87,
+                        "val": "gASVEAAAAAAAAACMDC5MRU5HVEhVTklULpQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVRgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwMLkxFTkdUSFVOSVQulIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVGgAAAAAAAAB9lIwEdGV4dJSMDC5MRU5HVEhVTklULpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Prefix",
+                        "GID": 88,
+                        "val": "gASVCwAAAAAAAACMBy5NSUxMSS6ULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwHLk1JTExJLpSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVFQAAAAAAAAB9lIwEdGV4dJSMBy5NSUxMSS6Ucy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Name",
+                        "GID": 89,
+                        "val": "gASVCwAAAAAAAACMBy5NRVRSRS6ULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwHLk1FVFJFLpSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVFQAAAAAAAAB9lIwEdGV4dJSMBy5NRVRSRS6Ucy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 90
+                     }
+                  ],
+                  "GID": 84,
+                  "pos x": 1800.0,
+                  "pos y": 600.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcConversionBasedUnit",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCCONVERSIONBASEDUNIT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 92,
+                        "val": "gASVBwAAAAAAAACMAyMxMZQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzExlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxMZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Dimensions",
+                        "GID": 93,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxNpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "UnitType",
+                        "GID": 94,
+                        "val": "gASVFAAAAAAAAACMEC5QTEFORUFOR0xFVU5JVC6ULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVSgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwQLlBMQU5FQU5HTEVVTklULpSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVHgAAAAAAAAB9lIwEdGV4dJSMEC5QTEFORUFOR0xFVU5JVC6Ucy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Name",
+                        "GID": 95,
+                        "val": "gASVDAAAAAAAAACMCCdkZWdyZWUnlC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwIJ2RlZ3JlZSeUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVFgAAAAAAAAB9lIwEdGV4dJSMCCdkZWdyZWUnlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "ConversionFactor",
+                        "GID": 96,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxN5RzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 97
+                     }
+                  ],
+                  "GID": 91,
+                  "pos x": 5400.0,
+                  "pos y": 1000.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcPerson",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCPERSON"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 99,
+                        "val": "gASVBwAAAAAAAACMAyMxMpQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzEylIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxMpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Identification",
+                        "GID": 100,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "FamilyName",
+                        "GID": 101,
+                        "val": "gASVDQAAAAAAAACMCSdMaWViaWNoJ5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwJJ0xpZWJpY2gnlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVFwAAAAAAAAB9lIwEdGV4dJSMCSdMaWViaWNoJ5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "GivenName",
+                        "GID": 102,
+                        "val": "gASVDAAAAAAAAACMCCdUaG9tYXMnlC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwIJ1Rob21hcyeUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVFgAAAAAAAAB9lIwEdGV4dJSMCCdUaG9tYXMnlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "MiddleNames",
+                        "GID": 103,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "PrefixTitles",
+                        "GID": 104,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "SuffixTitles",
+                        "GID": 105,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Roles",
+                        "GID": 106,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Addresses",
+                        "GID": 107,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 108
+                     }
+                  ],
+                  "GID": 98,
+                  "pos x": 4500.0,
+                  "pos y": 1000.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcOrganization",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCORGANIZATION"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 110,
+                        "val": "gASVBwAAAAAAAACMAyMxM5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzEzlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxM5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Identification",
+                        "GID": 111,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Name",
+                        "GID": 112,
+                        "val": "gASVIQAAAAAAAACMHSdidWlsZGluZ1NNQVJUIEludGVybmF0aW9uYWwnlC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVVwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwdJ2J1aWxkaW5nU01BUlQgSW50ZXJuYXRpb25hbCeUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVKwAAAAAAAAB9lIwEdGV4dJSMHSdidWlsZGluZ1NNQVJUIEludGVybmF0aW9uYWwnlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "Description",
+                        "GID": 113,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Roles",
+                        "GID": 114,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Addresses",
+                        "GID": 115,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 116
+                     }
+                  ],
+                  "GID": 109,
+                  "pos x": 3600.0,
+                  "pos y": 1000.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcCartesianPoint",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCCARTESIANPOINT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 118,
+                        "val": "gASVBwAAAAAAAACMAyMxNJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzE0lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxNJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Coordinates",
+                        "GID": 119,
+                        "val": "gASVDgAAAAAAAACMCigwLiwwLiwwLimULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVRAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwKKDAuLDAuLDAuKZSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVGAAAAAAAAAB9lIwEdGV4dJSMCigwLiwwLiwwLimUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 120
+                     }
+                  ],
+                  "GID": 117,
+                  "pos x": 2700.0,
+                  "pos y": 1000.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcShapeRepresentation",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCSHAPEREPRESENTATION"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 122,
+                        "val": "gASVBwAAAAAAAACMAyMxNZQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzE1lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxNZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ContextOfItems",
+                        "GID": 123,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiM5lHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "RepresentationIdentifier",
+                        "GID": 124,
+                        "val": "gASVCgAAAAAAAACMBidCb2R5J5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwGJ0JvZHknlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVFAAAAAAAAAB9lIwEdGV4dJSMBidCb2R5J5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "RepresentationType",
+                        "GID": 125,
+                        "val": "gASVEgAAAAAAAACMDidUZXNzZWxsYXRpb24nlC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVSAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwOJ1Rlc3NlbGxhdGlvbieUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVHAAAAAAAAAB9lIwEdGV4dJSMDidUZXNzZWxsYXRpb24nlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "Items",
+                        "GID": 126,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVFwAAAAAAAAB9lIwEdGV4dJSMCSgjMTgsIzQwKZRzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 127
+                     }
+                  ],
+                  "GID": 121,
+                  "pos x": 1800.0,
+                  "pos y": 1000.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcDimensionalExponents",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCDIMENSIONALEXPONENTS"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 129,
+                        "val": "gASVBwAAAAAAAACMAyMxNpQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzE2lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxNpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "LengthExponent",
+                        "GID": 130,
+                        "val": "gASVBQAAAAAAAACMATCULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBMJSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATCUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "MassExponent",
+                        "GID": 131,
+                        "val": "gASVBQAAAAAAAACMATCULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBMJSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATCUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "TimeExponent",
+                        "GID": 132,
+                        "val": "gASVBQAAAAAAAACMATCULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBMJSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATCUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ElectricCurrentExponent",
+                        "GID": 133,
+                        "val": "gASVBQAAAAAAAACMATCULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBMJSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATCUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ThermodynamicTemperatureExponent",
+                        "GID": 134,
+                        "val": "gASVBQAAAAAAAACMATCULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBMJSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATCUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "AmountOfSubstanceExponent",
+                        "GID": 135,
+                        "val": "gASVBQAAAAAAAACMATCULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBMJSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATCUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "LuminousIntensityExponent",
+                        "GID": 136,
+                        "val": "gASVBQAAAAAAAACMATCULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBMJSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATCUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 137
+                     }
+                  ],
+                  "GID": 128,
+                  "pos x": 5400.0,
+                  "pos y": 1400.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcMeasureWithUnit",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCMEASUREWITHUNIT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 139,
+                        "val": "gASVBwAAAAAAAACMAyMxN5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzE3lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxN5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ValueComponent",
+                        "GID": 140,
+                        "val": "gASVJQAAAAAAAACMIUlmY1BsYW5lQW5nbGVNZWFzdXJlKDAuMDE3NDUzMjkzKZQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVWwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwhSWZjUGxhbmVBbmdsZU1lYXN1cmUoMC4wMTc0NTMyOTMplIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVLwAAAAAAAAB9lIwEdGV4dJSMIUlmY1BsYW5lQW5nbGVNZWFzdXJlKDAuMDE3NDUzMjkzKZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "UnitComponent",
+                        "GID": 141,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyMJRzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 142
+                     }
+                  ],
+                  "GID": 138,
+                  "pos x": 4500.0,
+                  "pos y": 1400.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcTriangulatedFaceSet",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCTRIANGULATEDFACESET"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 144,
+                        "val": "gASVBwAAAAAAAACMAyMxOJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzE4lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxOJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Coordinates",
+                        "GID": 145,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyMZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Normals",
+                        "GID": 146,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Closed",
+                        "GID": 147,
+                        "val": "gASVBwAAAAAAAACMAy5ULpQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwDLlQulIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAy5ULpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "CoordIndex",
+                        "GID": 148,
+                        "val": "gASVZQAAAAAAAACMYSgoMSw2LDUpLCgxLDIsNiksKDYsMiw3KSwoNywyLDMpLCg3LDgsNiksKDYsOCw1KSwoNSw4LDEpLCgxLDgsNCksKDQsMiwxKSwoMiw0LDMpLCg0LDgsNyksKDcsMyw0KSmULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVmwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIxhKCgxLDYsNSksKDEsMiw2KSwoNiwyLDcpLCg3LDIsMyksKDcsOCw2KSwoNiw4LDUpLCg1LDgsMSksKDEsOCw0KSwoNCwyLDEpLCgyLDQsMyksKDQsOCw3KSwoNywzLDQpKZSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVbwAAAAAAAAB9lIwEdGV4dJSMYSgoMSw2LDUpLCgxLDIsNiksKDYsMiw3KSwoNywyLDMpLCg3LDgsNiksKDYsOCw1KSwoNSw4LDEpLCgxLDgsNCksKDQsMiwxKSwoMiw0LDMpLCg0LDgsNyksKDcsMyw0KSmUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "PnIndex",
+                        "GID": 149,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 150
+                     }
+                  ],
+                  "GID": 143,
+                  "pos x": 3600.0,
+                  "pos y": 1400.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcProductDefinitionShape",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCPRODUCTDEFINITIONSHAPE"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 152,
+                        "val": "gASVBwAAAAAAAACMAyMxOZQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzE5lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxOZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Name",
+                        "GID": 153,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Description",
+                        "GID": 154,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Representations",
+                        "GID": 155,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEwAAAAAAAAB9lIwEdGV4dJSMBSgjMTUplHMu"
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 156
+                     }
+                  ],
+                  "GID": 151,
+                  "pos x": 2700.0,
+                  "pos y": 1400.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcSIUnit",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCSIUNIT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 158,
+                        "val": "gASVBwAAAAAAAACMAyMyMJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzIwlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyMJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Dimensions",
+                        "GID": 159,
+                        "val": "gASVBQAAAAAAAACMASqULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwBKpSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASqUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "UnitType",
+                        "GID": 160,
+                        "val": "gASVFAAAAAAAAACMEC5QTEFORUFOR0xFVU5JVC6ULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVSgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwQLlBMQU5FQU5HTEVVTklULpSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVHgAAAAAAAAB9lIwEdGV4dJSMEC5QTEFORUFOR0xFVU5JVC6Ucy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Prefix",
+                        "GID": 161,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Name",
+                        "GID": 162,
+                        "val": "gASVDAAAAAAAAACMCC5SQURJQU4ulC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwILlJBRElBTi6UjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVFgAAAAAAAAB9lIwEdGV4dJSMCC5SQURJQU4ulHMu"
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 163
+                     }
+                  ],
+                  "GID": 157,
+                  "pos x": 1800.0,
+                  "pos y": 1400.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcCartesianPointList3D",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCCARTESIANPOINTLIST3D"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 165,
+                        "val": "gASVBwAAAAAAAACMAyMyMZQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzIxlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyMZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "CoordList",
+                        "GID": 166,
+                        "val": "gASVkQAAAAAAAACMjSgoLTUwMC4sLTUwMC4sMC4pLCg1MDAuLC01MDAuLDAuKSwoNTAwLiw1MDAuLDAuKSwoLTUwMC4sNTAwLiwwLiksKC01MDAuLC01MDAuLDIwMDAuKSwoNTAwLiwtNTAwLiwyMDAwLiksKDUwMC4sNTAwLiwyMDAwLiksKC01MDAuLDUwMC4sMjAwMC4pKZQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVxwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIyNKCgtNTAwLiwtNTAwLiwwLiksKDUwMC4sLTUwMC4sMC4pLCg1MDAuLDUwMC4sMC4pLCgtNTAwLiw1MDAuLDAuKSwoLTUwMC4sLTUwMC4sMjAwMC4pLCg1MDAuLC01MDAuLDIwMDAuKSwoNTAwLiw1MDAuLDIwMDAuKSwoLTUwMC4sNTAwLiwyMDAwLikplIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVmwAAAAAAAAB9lIwEdGV4dJSMjSgoLTUwMC4sLTUwMC4sMC4pLCg1MDAuLC01MDAuLDAuKSwoNTAwLiw1MDAuLDAuKSwoLTUwMC4sNTAwLiwwLiksKC01MDAuLC01MDAuLDIwMDAuKSwoNTAwLiwtNTAwLiwyMDAwLiksKDUwMC4sNTAwLiwyMDAwLiksKC01MDAuLDUwMC4sMjAwMC4pKZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "TagList",
+                        "GID": 167,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 168
+                     }
+                  ],
+                  "GID": 164,
+                  "pos x": 5400.0,
+                  "pos y": 1800.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcBuildingElementProxy",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCBUILDINGELEMENTPROXY"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 170,
+                        "val": "gASVBwAAAAAAAACMAyMyMpQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzIylIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyMpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "GlobalId",
+                        "GID": 171,
+                        "val": "gASVHAAAAAAAAACMGCcxa1R2WG5iYnpDV3c4bGNNZDFkUjRvJ5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVUgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwYJzFrVHZYbmJiekNXdzhsY01kMWRSNG8nlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVJgAAAAAAAAB9lIwEdGV4dJSMGCcxa1R2WG5iYnpDV3c4bGNNZDFkUjRvJ5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "OwnerHistory",
+                        "GID": 172,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Name",
+                        "GID": 173,
+                        "val": "gASVCQAAAAAAAACMBSdQLTEnlC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwFJ1AtMSeUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEwAAAAAAAAB9lIwEdGV4dJSMBSdQLTEnlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "Description",
+                        "GID": 174,
+                        "val": "gASVEgAAAAAAAACMDidzYW1wbGUgcHJveHknlC4=",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVSAAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwOJ3NhbXBsZSBwcm94eSeUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVHAAAAAAAAAB9lIwEdGV4dJSMDidzYW1wbGUgcHJveHknlHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "ObjectType",
+                        "GID": 175,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ObjectPlacement",
+                        "GID": 176,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyNJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Representation",
+                        "GID": 177,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxOZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Tag",
+                        "GID": 178,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "PredefinedType",
+                        "GID": 179,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 180
+                     }
+                  ],
+                  "GID": 169,
+                  "pos x": 4500.0,
+                  "pos y": 1800.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcBuilding",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCBUILDING"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 182,
+                        "val": "gASVBwAAAAAAAACMAyMyM5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzIzlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyM5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "GlobalId",
+                        "GID": 183,
+                        "val": "gASVHAAAAAAAAACMGCcyRkNaRG9yeEhEVDhOSTAxa2RYaThQJ5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVUgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwYJzJGQ1pEb3J4SERUOE5JMDFrZFhpOFAnlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVJgAAAAAAAAB9lIwEdGV4dJSMGCcyRkNaRG9yeEhEVDhOSTAxa2RYaThQJ5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "OwnerHistory",
+                        "GID": 184,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Name",
+                        "GID": 185,
+                        "val": "gASVEwAAAAAAAACMDydUZXN0IEJ1aWxkaW5nJ5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVSQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwPJ1Rlc3QgQnVpbGRpbmcnlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVHQAAAAAAAAB9lIwEdGV4dJSMDydUZXN0IEJ1aWxkaW5nJ5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Description",
+                        "GID": 186,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ObjectType",
+                        "GID": 187,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ObjectPlacement",
+                        "GID": 188,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyNpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Representation",
+                        "GID": 189,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "LongName",
+                        "GID": 190,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "CompositionType",
+                        "GID": 191,
+                        "val": "gASVDQAAAAAAAACMCS5FTEVNRU5ULpQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVQwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwJLkVMRU1FTlQulIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVFwAAAAAAAAB9lIwEdGV4dJSMCS5FTEVNRU5ULpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ElevationOfRefHeight",
+                        "GID": 192,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "ElevationOfTerrain",
+                        "GID": 193,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "BuildingAddress",
+                        "GID": 194,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 195
+                     }
+                  ],
+                  "GID": 181,
+                  "pos x": 3600.0,
+                  "pos y": 1800.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcLocalPlacement",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCLOCALPLACEMENT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 197,
+                        "val": "gASVBwAAAAAAAACMAyMyNJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzI0lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyNJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "PlacementRelTo",
+                        "GID": 198,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyNpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "RelativePlacement",
+                        "GID": 199,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyN5RzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 200
+                     }
+                  ],
+                  "GID": 196,
+                  "pos x": 2700.0,
+                  "pos y": 1800.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcRelContainedInSpatialStructure",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCRELCONTAINEDINSPATIALSTRUCTURE"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 202,
+                        "val": "gASVBwAAAAAAAACMAyMyNZQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzI1lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyNZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "GlobalId",
+                        "GID": 203,
+                        "val": "gASVHAAAAAAAAACMGCcyVG54WmtUWFQwOGVEdU11aFVVRk55J5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVUgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwYJzJUbnhaa1RYVDA4ZUR1TXVoVVVGTnknlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVJgAAAAAAAAB9lIwEdGV4dJSMGCcyVG54WmtUWFQwOGVEdU11aFVVRk55J5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "OwnerHistory",
+                        "GID": 204,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Name",
+                        "GID": 205,
+                        "val": "gASVFAAAAAAAAACMECdQaHlzaWNhbCBtb2RlbCeULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVSgAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwQJ1BoeXNpY2FsIG1vZGVsJ5SMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVHgAAAAAAAAB9lIwEdGV4dJSMECdQaHlzaWNhbCBtb2RlbCeUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Description",
+                        "GID": 206,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "RelatedElements",
+                        "GID": 207,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEwAAAAAAAAB9lIwEdGV4dJSMBSgjMjIplHMu"
+                     },
+                     {
+                        "type": "data",
+                        "label": "RelatingStructure",
+                        "GID": 208,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyM5RzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 209
+                     }
+                  ],
+                  "GID": 201,
+                  "pos x": 1800.0,
+                  "pos y": 1800.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcLocalPlacement",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCLOCALPLACEMENT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 211,
+                        "val": "gASVBwAAAAAAAACMAyMyNpQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzI2lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyNpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "PlacementRelTo",
+                        "GID": 212,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "RelativePlacement",
+                        "GID": 213,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyOJRzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 214
+                     }
+                  ],
+                  "GID": 210,
+                  "pos x": 5400.0,
+                  "pos y": 2200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcAxis2Placement3D",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCAXIS2PLACEMENT3D"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 216,
+                        "val": "gASVBwAAAAAAAACMAyMyN5Qu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzI3lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyN5RzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Location",
+                        "GID": 217,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyOZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Axis",
+                        "GID": 218,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "RefDirection",
+                        "GID": 219,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 220
+                     }
+                  ],
+                  "GID": 215,
+                  "pos x": 4500.0,
+                  "pos y": 2200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcAxis2Placement3D",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCAXIS2PLACEMENT3D"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 222,
+                        "val": "gASVBwAAAAAAAACMAyMyOJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzI4lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyOJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Location",
+                        "GID": 223,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxNJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Axis",
+                        "GID": 224,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "RefDirection",
+                        "GID": 225,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 226
+                     }
+                  ],
+                  "GID": 221,
+                  "pos x": 3600.0,
+                  "pos y": 2200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcCartesianPoint",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCCARTESIANPOINT"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 228,
+                        "val": "gASVBwAAAAAAAACMAyMyOZQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzI5lIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyOZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Coordinates",
+                        "GID": 229,
+                        "val": "gASVEQAAAAAAAACMDSgxMDAwLiwwLiwwLimULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVRwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwNKDEwMDAuLDAuLDAuKZSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVGwAAAAAAAAB9lIwEdGV4dJSMDSgxMDAwLiwwLiwwLimUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 230
+                     }
+                  ],
+                  "GID": 227,
+                  "pos x": 2700.0,
+                  "pos y": 2200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcTriangulatedFaceSet",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCTRIANGULATEDFACESET"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 232,
+                        "val": "gASVBwAAAAAAAACMAyM0MJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzQwlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyM0MJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Coordinates",
+                        "GID": 233,
+                        "val": "gASVBAAAAAAAAACMAJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyM1MJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Normals",
+                        "GID": 234,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "Closed",
+                        "GID": 235,
+                        "val": "gASVBwAAAAAAAACMAy5ULpQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIwDLlQulIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAy5ULpRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "CoordIndex",
+                        "GID": 236,
+                        "val": "gASVZQAAAAAAAACMYSgoMSw2LDUpLCgxLDIsNiksKDYsMiw3KSwoNywyLDMpLCg3LDgsNiksKDYsOCw1KSwoNSw4LDEpLCgxLDgsNCksKDQsMiwxKSwoMiw0LDMpLCg0LDgsNyksKDcsMyw0KSmULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVmwAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIxhKCgxLDYsNSksKDEsMiw2KSwoNiwyLDcpLCg3LDIsMyksKDcsOCw2KSwoNiw4LDUpLCg1LDgsMSksKDEsOCw0KSwoNCwyLDEpLCgyLDQsMyksKDQsOCw3KSwoNywzLDQpKZSMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                        "has widget": true,
+                        "widget data": "gASVbwAAAAAAAAB9lIwEdGV4dJSMYSgoMSw2LDUpLCgxLDIsNiksKDYsMiw3KSwoNywyLDMpLCg3LDgsNiksKDYsOCw1KSwoNSw4LDEpLCgxLDgsNCksKDQsMiwxKSwoMiw0LDMpLCg0LDgsNyksKDcsMyw0KSmUcy4="
+                     },
+                     {
+                        "type": "data",
+                        "label": "PnIndex",
+                        "GID": 237,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 238
+                     }
+                  ],
+                  "GID": 231,
+                  "pos x": 1800.0,
+                  "pos y": 2200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.IfcCartesianPointList3D",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {},
+                     "display title": "IFCCARTESIANPOINTLIST3D"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 240,
+                        "val": "gASVBwAAAAAAAACMAyM1MJQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVPQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEjlIwDdmFslIwDIzUwlIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyM1MJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "CoordList",
+                        "GID": 241,
+                        "val": "gASVnQAAAAAAAACMmSgoLTI1MDAuLC01MDAuLDAuKSwoLTE1MDAuLC01MDAuLDAuKSwoLTE1MDAuLDUwMC4sMC4pLCgtMjUwMC4sNTAwLiwwLiksKC0yNTAwLiwtNTAwLiwyMDAwLiksKC0xNTAwLiwtNTAwLiwyMDAwLiksKC0xNTAwLiw1MDAuLDIwMDAuKSwoLTI1MDAuLDUwMC4sMjAwMC4pKZQu",
+                        "dtype": "DType.String",
+                        "dtype state": "gASV0wAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslIyZKCgtMjUwMC4sLTUwMC4sMC4pLCgtMTUwMC4sLTUwMC4sMC4pLCgtMTUwMC4sNTAwLiwwLiksKC0yNTAwLiw1MDAuLDAuKSwoLTI1MDAuLC01MDAuLDIwMDAuKSwoLTE1MDAuLC01MDAuLDIwMDAuKSwoLTE1MDAuLDUwMC4sMjAwMC4pLCgtMjUwMC4sNTAwLiwyMDAwLikplIwDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFslHUu",
+                        "has widget": true,
+                        "widget data": "gASVpwAAAAAAAAB9lIwEdGV4dJSMmSgoLTI1MDAuLC01MDAuLDAuKSwoLTE1MDAuLC01MDAuLDAuKSwoLTE1MDAuLDUwMC4sMC4pLCgtMjUwMC4sNTAwLiwwLiksKC0yNTAwLiwtNTAwLiwyMDAwLiksKC0xNTAwLiwtNTAwLiwyMDAwLiksKC0xNTAwLiw1MDAuLDIwMDAuKSwoLTI1MDAuLDUwMC4sMjAwMC4pKZRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "TagList",
+                        "GID": 242,
+                        "val": "gASVBQAAAAAAAACMASSULg==",
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMASSUcy4="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "OwnIFCID",
+                        "GID": 243
+                     }
+                  ],
+                  "GID": 239,
+                  "pos x": 5400.0,
+                  "pos y": 2600.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.combine_entities",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {
+                        "add input": "add_operand_input",
+                        "remove input 0": {
+                           "method": "remove_operand_input",
+                           "data": 0
+                        }
+                     },
+                     "display title": "Combine entities"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 245,
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAiMzlHMu"
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 246
+                     }
+                  ],
+                  "GID": 244,
+                  "pos x": 5100.0,
+                  "pos y": 400.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.combine_entities",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {
+                        "add input": "add_operand_input",
+                        "remove input 0": {
+                           "method": "remove_operand_input",
+                           "data": 0
+                        },
+                        "remove input 1": {
+                           "method": "remove_operand_input",
+                           "data": 1
+                        }
+                     },
+                     "display title": "Combine entities"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 248,
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxMJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 249,
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxMZRzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 250
+                     }
+                  ],
+                  "GID": 247,
+                  "pos x": 2400.0,
+                  "pos y": 400.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.combine_entities",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {
+                        "add input": "add_operand_input",
+                        "remove input 0": {
+                           "method": "remove_operand_input",
+                           "data": 0
+                        }
+                     },
+                     "display title": "Combine entities"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 252,
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyM5RzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 253
+                     }
+                  ],
+                  "GID": 251,
+                  "pos x": 1500.0,
+                  "pos y": 400.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.combine_entities",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {
+                        "add input": "add_operand_input",
+                        "remove input 0": {
+                           "method": "remove_operand_input",
+                           "data": 0
+                        },
+                        "remove input 1": {
+                           "method": "remove_operand_input",
+                           "data": 1
+                        }
+                     },
+                     "display title": "Combine entities"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 255,
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxOJRzLg=="
+                     },
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 256,
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyM0MJRzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 257
+                     }
+                  ],
+                  "GID": 254,
+                  "pos x": 1500.0,
+                  "pos y": 1200.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.combine_entities",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {
+                        "add input": "add_operand_input",
+                        "remove input 0": {
+                           "method": "remove_operand_input",
+                           "data": 0
+                        }
+                     },
+                     "display title": "Combine entities"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 259,
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMxNZRzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 260
+                     }
+                  ],
+                  "GID": 258,
+                  "pos x": 2400.0,
+                  "pos y": 1600.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               },
+               {
+                  "identifier": "Prototype Nodes.combine_entities",
+                  "version": null,
+                  "state data": "gAR9lC4=",
+                  "additional data": {
+                     "special actions": {
+                        "add input": "add_operand_input",
+                        "remove input 0": {
+                           "method": "remove_operand_input",
+                           "data": 0
+                        }
+                     },
+                     "display title": "Combine entities"
+                  },
+                  "inputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 262,
+                        "dtype": "DType.String",
+                        "dtype state": "gASVOQAAAAAAAAB9lCiMB2RlZmF1bHSUjAEklIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                        "has widget": true,
+                        "widget data": "gASVEQAAAAAAAAB9lIwEdGV4dJSMAyMyMpRzLg=="
+                     }
+                  ],
+                  "outputs": [
+                     {
+                        "type": "data",
+                        "label": "IFCID",
+                        "GID": 263
+                     }
+                  ],
+                  "GID": 261,
+                  "pos x": 1500.0,
+                  "pos y": 2000.0,
+                  "unconnected ports hidden": false,
+                  "collapsed": false
+               }
+            ],
+            "connections": [
+               {
+                  "GID": 264,
+                  "parent node index": 0,
+                  "output port index": 0,
+                  "connected node": 4,
+                  "connected input port index": 5
+               },
+               {
+                  "GID": 265,
+                  "parent node index": 1,
+                  "output port index": 0,
+                  "connected node": 0,
+                  "connected input port index": 2
+               },
+               {
+                  "GID": 266,
+                  "parent node index": 2,
+                  "output port index": 0,
+                  "connected node": 8,
+                  "connected input port index": 7
+               },
+               {
+                  "GID": 267,
+                  "parent node index": 2,
+                  "output port index": 0,
+                  "connected node": 31,
+                  "connected input port index": 0
+               },
+               {
+                  "GID": 268,
+                  "parent node index": 3,
+                  "output port index": 0,
+                  "connected node": 0,
+                  "connected input port index": 9
+               },
+               {
+                  "GID": 269,
+                  "parent node index": 5,
+                  "output port index": 0,
+                  "connected node": 1,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 270,
+                  "parent node index": 6,
+                  "output port index": 0,
+                  "connected node": 1,
+                  "connected input port index": 2
+               },
+               {
+                  "GID": 271,
+                  "parent node index": 7,
+                  "output port index": 0,
+                  "connected node": 2,
+                  "connected input port index": 5
+               },
+               {
+                  "GID": 272,
+                  "parent node index": 8,
+                  "output port index": 0,
+                  "connected node": 14,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 273,
+                  "parent node index": 9,
+                  "output port index": 0,
+                  "connected node": 32,
+                  "connected input port index": 0
+               },
+               {
+                  "GID": 274,
+                  "parent node index": 10,
+                  "output port index": 0,
+                  "connected node": 32,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 275,
+                  "parent node index": 11,
+                  "output port index": 0,
+                  "connected node": 5,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 276,
+                  "parent node index": 12,
+                  "output port index": 0,
+                  "connected node": 5,
+                  "connected input port index": 2
+               },
+               {
+                  "GID": 277,
+                  "parent node index": 12,
+                  "output port index": 0,
+                  "connected node": 6,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 278,
+                  "parent node index": 13,
+                  "output port index": 0,
+                  "connected node": 7,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 279,
+                  "parent node index": 13,
+                  "output port index": 0,
+                  "connected node": 27,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 280,
+                  "parent node index": 14,
+                  "output port index": 0,
+                  "connected node": 35,
+                  "connected input port index": 0
+               },
+               {
+                  "GID": 281,
+                  "parent node index": 15,
+                  "output port index": 0,
+                  "connected node": 10,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 282,
+                  "parent node index": 16,
+                  "output port index": 0,
+                  "connected node": 10,
+                  "connected input port index": 4
+               },
+               {
+                  "GID": 283,
+                  "parent node index": 17,
+                  "output port index": 0,
+                  "connected node": 34,
+                  "connected input port index": 0
+               },
+               {
+                  "GID": 284,
+                  "parent node index": 18,
+                  "output port index": 0,
+                  "connected node": 21,
+                  "connected input port index": 7
+               },
+               {
+                  "GID": 285,
+                  "parent node index": 19,
+                  "output port index": 0,
+                  "connected node": 16,
+                  "connected input port index": 2
+               },
+               {
+                  "GID": 286,
+                  "parent node index": 20,
+                  "output port index": 0,
+                  "connected node": 17,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 287,
+                  "parent node index": 21,
+                  "output port index": 0,
+                  "connected node": 36,
+                  "connected input port index": 0
+               },
+               {
+                  "GID": 288,
+                  "parent node index": 22,
+                  "output port index": 0,
+                  "connected node": 24,
+                  "connected input port index": 6
+               },
+               {
+                  "GID": 289,
+                  "parent node index": 22,
+                  "output port index": 0,
+                  "connected node": 33,
+                  "connected input port index": 0
+               },
+               {
+                  "GID": 290,
+                  "parent node index": 23,
+                  "output port index": 0,
+                  "connected node": 21,
+                  "connected input port index": 6
+               },
+               {
+                  "GID": 291,
+                  "parent node index": 25,
+                  "output port index": 0,
+                  "connected node": 22,
+                  "connected input port index": 6
+               },
+               {
+                  "GID": 292,
+                  "parent node index": 25,
+                  "output port index": 0,
+                  "connected node": 23,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 293,
+                  "parent node index": 26,
+                  "output port index": 0,
+                  "connected node": 23,
+                  "connected input port index": 2
+               },
+               {
+                  "GID": 294,
+                  "parent node index": 27,
+                  "output port index": 0,
+                  "connected node": 25,
+                  "connected input port index": 2
+               },
+               {
+                  "GID": 295,
+                  "parent node index": 28,
+                  "output port index": 0,
+                  "connected node": 26,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 296,
+                  "parent node index": 29,
+                  "output port index": 0,
+                  "connected node": 34,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 297,
+                  "parent node index": 30,
+                  "output port index": 0,
+                  "connected node": 29,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 298,
+                  "parent node index": 31,
+                  "output port index": 0,
+                  "connected node": 0,
+                  "connected input port index": 8
+               },
+               {
+                  "GID": 299,
+                  "parent node index": 32,
+                  "output port index": 0,
+                  "connected node": 3,
+                  "connected input port index": 1
+               },
+               {
+                  "GID": 300,
+                  "parent node index": 33,
+                  "output port index": 0,
+                  "connected node": 4,
+                  "connected input port index": 6
+               },
+               {
+                  "GID": 301,
+                  "parent node index": 34,
+                  "output port index": 0,
+                  "connected node": 14,
+                  "connected input port index": 4
+               },
+               {
+                  "GID": 302,
+                  "parent node index": 35,
+                  "output port index": 0,
+                  "connected node": 18,
+                  "connected input port index": 3
+               },
+               {
+                  "GID": 303,
+                  "parent node index": 36,
+                  "output port index": 0,
+                  "connected node": 24,
+                  "connected input port index": 5
+               }
+            ],
+            "GID": 6,
+            "flow view": {
+               "drawings": [],
+               "view size": [
+                  6400.0,
+                  4800.0
+               ]
+            }
+         },
+         "GID": 1
+      }
+   ]
+}
